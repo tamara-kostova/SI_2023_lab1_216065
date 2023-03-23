@@ -1,0 +1,74 @@
+4. 
+C:\Users\Tamara\SI_2023_lab1_216065>git init
+5. 
+C:\Users\Tamara\SI_2023_lab1_216065>git remote add origin https://github.com/tamara-kostova/SI_2023_lab1_216065.git
+6.
+C:\Users\Tamara\SI_2023_lab1_216065>git add README.md
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Initial commit"
+7.
+C:\Users\Tamara\SI_2023_lab1_216065>type nul > SILab1.java
+C:\Users\Tamara\SI_2023_lab1_216065>notepad SILab1.java
+C:\Users\Tamara\SI_2023_lab1_216065>git add SILab1.java
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Add java class"
+8.
+C:\Users\Tamara\SI_2023_lab1_216065>git push origin master
+9.
+C:\Users\Tamara\SI_2023_lab1_216065>git branch bug1
+
+C:\Users\Tamara\SI_2023_lab1_216065>git branch bug2
+
+C:\Users\Tamara\SI_2023_lab1_216065>git branch bug3
+10.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout bug1
+11.
+C:\Users\Tamara\SI_2023_lab1_216065>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git add SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Fix wrong loop for reading"
+12.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout bug2
+13.
+C:\Users\Tamara\SI_2023_lab1_216065>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git add SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Fix wrong condition in filterOddNumbers"
+14.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout bug3
+15.
+C:\Users\Tamara\SI_2023_lab1_216065>notepad SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git add SILab1.java
+
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Fix method sumEvenNumbers"
+16.
+C:\Users\Tamara\SI_2023_lab1_216065>git push origin --all
+17.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout master
+18. 
+fast-forward merge - немаше никакви промени на master кои ги немаше на bug1
+C:\Users\Tamara\SI_2023_lab1_216065>git merge bug1
+19.
+C:\Users\Tamara\SI_2023_lab1_216065>git push origin --all
+20. 
+recursive merge без конфликти - имавме промени и на master кои ги немаше на bug2 (оние од for циклусот во Bug1), но се работи на различен дел од кодот
+C:\Users\Tamara\SI_2023_lab1_216065>git merge bug2
+21.
+C:\Users\Tamara\SI_2023_lab1_216065>git push origin --all
+22.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout bug3
+23.
+C:\Users\Tamara\SI_2023_lab1_216065>git rebase master
+24.
+C:\Users\Tamara\SI_2023_lab1_216065>git checkout master
+25. 
+fast-forward merge - после rebase, сите промени кои ги имаше на master во однос на bug3 се префрлени и таму, па разликата од master во Bug3 е празна
+C:\Users\Tamara\SI_2023_lab1_216065>git merge bug3
+26.
+C:\Users\Tamara\SI_2023_lab1_216065>git push origin --all
+27.
+C:\Users\Tamara\SI_2023_lab1_216065>git add --all
+C:\Users\Tamara\SI_2023_lab1_216065>git commit -m "Final commit"
+28.
+C:\Users\Tamara\SI_2023_lab1_216065>git push -u origin master

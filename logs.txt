@@ -1,0 +1,37 @@
+C:\Users\Tamara\SI_2023_lab1_216065>git log
+commit 96cd8e6336a0ab7a0eece877f11d1342d585673b (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:35:26 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 60ca679f4e735b3a8f72cf7bb80b7b567450100c
+Merge: 7d05b53 cf79f66
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:36:02 2023 +0100
+
+    Merge branch 'bug2'
+
+commit cf79f66a821890c558d14df142b18449feb39a86 (origin/bug2, bug2)
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:34:57 2023 +0100
+
+    Fix wrong condition in filter OddNumbers
+
+commit 7d05b53a44692b673ec368c0044abf00f5f9c8a4 (origin/bug1, bug1)
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:32:59 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 52558b37a1e604fb20a6b4f2c1ade6d2bce900f0
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:31:49 2023 +0100
+
+    Add java class
+
+commit 4a42ebf78d2b4152e395f13242d437955547550a
+Author: Tamara <tamarakostovabt@gmail.com>
+Date:   Thu Mar 23 20:31:03 2023 +0100
+
+    Initial commit
